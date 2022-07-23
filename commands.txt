@@ -1,0 +1,2 @@
+docker build --tag shattab_app .
+docker run --publish 8080:8080 shattab_app
